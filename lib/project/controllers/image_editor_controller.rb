@@ -13,16 +13,6 @@ class Motion; class ImageEditorController < UIViewController
     end
   end
 
-  def viewDidLoad
-    super
-
-    add_subviews
-
-    add_gesture_recognizers
-
-    setup_constraints
-  end
-
   def viewDidAppear(animated)
     super
 
